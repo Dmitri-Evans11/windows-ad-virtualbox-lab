@@ -8,16 +8,16 @@ Design a simple, predictable network layout for an Active Directory lab that all
 - **Internal Netowrk**: Allows VM to VM communication for the lab
 
 ## Planned Networks
-###Internal Network: AD_LAB
+### Internal Network: AD_LAB
 - Domain Controller
 - Windows Client 1
 - Windows Client 2
 - pfSense firewall/router (LAN interface)
 
-  ###NAT Network
+### NAT Network
 - pfSense (WAN interface)
- 
-##IP Addressing Plan
+
+## IP Addressing Plan
 - Network: 10.0.0.0/24
 - Domain Controller: 10.0.0.10
 - DHCP Scope: 10.0.0.50 - 10.0.0.100
