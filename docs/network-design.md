@@ -15,7 +15,7 @@ Design a simple, predictable network layout for an Active Directory lab that all
 - pfSense firewall/router (LAN interface)
 
   ###NAT Network
-  - pfSense (WAN interface)
+- pfSense (WAN interface)
  
 ##IP Addressing Plan
 - Network: 10.0.0.0/24
