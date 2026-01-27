@@ -19,7 +19,7 @@ Build a small, repeatable IT lab using Oracle VirtualBox that simulates a basic 
 ## Lab status
 - [x] Repo created
 - [x] Documentation structure created
-- [ ] VirtualBox networking configured
+- [ ] VirtualBox networking planned
 - [ ] Domain Controller installed
 - [ ] Clients joined to domain
 - [ ] Ticketing workflow documented
