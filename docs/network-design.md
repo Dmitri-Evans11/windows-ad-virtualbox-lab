@@ -17,6 +17,13 @@ Design a simple, predictable network layout for an Active Directory lab that all
 ### NAT Network
 - pfSense (WAN interface)
 
+## Topology Overview
+pfSense acts as the central router with:
+- WAN interface connected to NAT for internet access
+- LAN interface connected to the AD_LAB internal network
+
+ALL domain joined systems reside on the LAN network and route traffic through pfSense.
+
 ## IP Addressing Plan
 - Network: 10.0.0.0/24
 - Domain Controller: 10.0.0.10
@@ -24,7 +31,15 @@ Design a simple, predictable network layout for an Active Directory lab that all
 - Default Gateway: 10.0.0.1 (pfSense LAN)
 - DNS Server: 10.0.0.10 (Domain Controler)
 
+## DNS and DHCP Design
+- pfSense provides DHCP services to the LAN
+- DHCP assigns the Domain Controler (10.0.0.10) as the DNS server
+- pf Sense does not act as the primary DNS server for clients
+- This design ensure proper Active Directory name resolution and domain authentication
+
 ## Validation Critieria
 - Clients receive IP addresses via DHCP
 - Clients can resolve the domain name
 - Clients can acces the internet through pfSense
+
+## Evidence
