@@ -46,6 +46,11 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
 
 ### pfSense LAN Interface Configuration
 
-![pfSense LAN IP Configuration](https://github.com/user-attachments/assets/78a9d29f-4eca-44f4-b92e-71a2cb7258c8)
+<img
+  src="https://github.com/user-attachments/assets/78a9d29f-4eca-44f4-b92e-71a2cb7258c8"
+  alt="pfSense LAN IP Configuration"
+  width="600"
+/>
+
 
 
