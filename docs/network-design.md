@@ -80,5 +80,3 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
      alt="Domain user m.scott authenticated on Windows client" />
 
 *Successful authentication of domain user **m.scott** on a Windows 11 client, confirming Active Directory domain join and user-based authentication.*
-
-
