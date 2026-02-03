@@ -43,3 +43,9 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
 - Clients can acces the internet through pfSense
 
 ## Evidence
+
+### pfSense LAN Interface Configuration
+![pfSense LAN IP Configuration](<img width="1159" height="922" alt="pfsense-lan-interface-config-p1" src="https://github.com/user-attachments/assets/5d942bec-5b7e-4dba-bad1-ae2ff24655cf" />
+)
+
+
