@@ -38,8 +38,6 @@ Group Policy Objects are linked at the domain and Organizational Unit (OU) level
 
 *Domain user **m.scott** is prevented from accessing the Control Panel due to Group Policy restrictions, confirming successful enforcement of user-level security policies applied via Active Directory.*
 
-<img width="1088" height="912" alt="mapped-z-drive-m scott-p6" src="https://github.com/user-attachments/assets/3800f7bb-423b-4350-bfa4-2f5363f08de6" />
-
 
 ### 3. Group Policy Drive Mapping (Z: Drive)
 
