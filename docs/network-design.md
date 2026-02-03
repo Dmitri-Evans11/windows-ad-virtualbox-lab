@@ -73,7 +73,7 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
 *Domain Controller (DC01) configured with a static IPv4 address (10.0.0.10), default gateway pointing to pfSense (10.0.0.1), and DNS bound locally for Active Directory.*
 
 
-### Domain User Authentication (Client Validation)
+### 4. Domain User Authentication (Client Validation)
 
 <img src="https://github.com/user-attachments/assets/5ddfd13e-e2c1-43f9-b2e7-1a0acb6068f1"
      width="600"
