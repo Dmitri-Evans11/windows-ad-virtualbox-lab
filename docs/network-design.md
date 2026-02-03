@@ -44,13 +44,31 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
 
 ## Evidence
 
-### pfSense LAN Interface Configuration
+### 1. pfSense LAN Interface Configuration
 
 <img
   src="https://github.com/user-attachments/assets/78a9d29f-4eca-44f4-b92e-71a2cb7258c8"
   alt="pfSense LAN IP Configuration"
   width="600"
 />
+
+*pfSense LAN interface configured with IP 10.0.0.1/24, acting as the default gateway for the Active Directory lab network.*
+
+
+### 2. pfSense DHCP Server Configuration
+
+<img src="https://github.com/user-attachments/assets/f4b6b73c-9129-4482-a031-fb0d6b8e2d35"
+     width="600"
+     alt="pfSense DHCP Server Configuration" />
+
+*pfSense DHCP server configured with an address pool from 10.0.0.50 to 10.0.0.100 and DNS set to the domain controller (10.0.0.10).*
+
+
+
+
+
+
+
 
 
 
