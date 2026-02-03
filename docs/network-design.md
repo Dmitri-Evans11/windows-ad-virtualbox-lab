@@ -55,6 +55,7 @@ ALL domain joined systems reside on the LAN network and route traffic through pf
 *pfSense LAN interface configured with IP 10.0.0.1/24, acting as the default gateway for the Active Directory lab network.*
 
 
+
 ### 2. pfSense DHCP Server Configuration
 
 <img src="https://github.com/user-attachments/assets/f4b6b73c-9129-4482-a031-fb0d6b8e2d35"
