@@ -60,5 +60,10 @@ foreach ($User in $users) {
         -AccountPassword (ConvertTo-SecureString $User.Password -AsPlainText -Force) `
         -Enabled $true `
         -ChangePasswordAtLogon $true
-}
+}```
 
+**Script Behavior:**
+- Imports user data from a CSV file
+- Creates Active Directory user accounts in the `user-accounts` OU
+- Sets an initial password and forces a password change at first logon
+- Ensures consistent naming and domain standards
