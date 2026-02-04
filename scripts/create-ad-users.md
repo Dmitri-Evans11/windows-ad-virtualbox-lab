@@ -36,3 +36,29 @@ The script creates accounts in the user-accounts organizational unit, enables th
 
 *Active Directory Users and Computers showing multiple user accounts successfully created in the user-accounts organizational unit using the PowerShell automation script.
 This confirms that the script executed correctly and that users were provisioned according to domain standards.*
+
+---
+
+## PowerShell Script
+
+```powershell
+Import-Module ActiveDirectory
+
+$users = Import-Csv ".\users.csv"
+
+foreach ($User in $users) {
+
+    $FullName = "$($User.FirstName) $($User.LastName)"
+
+    New-ADUser `
+        -Name $FullName `
+        -GivenName $User.FirstName `
+        -Surname $User.LastName `
+        -SamAccountName $User.Username `
+        -UserPrincipalName "$($User.Username)@d.evans.adlab" `
+        -Path "OU=user-accounts,DC=d,DC=evans,DC=adlab" `
+        -AccountPassword (ConvertTo-SecureString $User.Password -AsPlainText -Force) `
+        -Enabled $true `
+        -ChangePasswordAtLogon $true
+}
+
