@@ -26,4 +26,13 @@ It is intended to simulate etnerprise onboarding workflows and reduce repetitive
 *PowerShell script used to automate Active Directory user creation by importing user data from a CSV file.
 The script creates accounts in the user-accounts organizational unit, enables them on creation, and enforces a password change at first logon.*
 
+### 2. Users Created in Active Directory
 
+<img
+  src="https://github.com/user-attachments/assets/9a8833a2-fa4f-427b-9aab-1d0ff0562f89"
+  alt="Active Directory users created via PowerShell script"
+  width="600"
+/>
+
+*Active Directory Users and Computers showing multiple user accounts successfully created in the user-accounts organizational unit using the PowerShell automation script.
+This confirms that the script executed correctly and that users were provisioned according to domain standards.*
