@@ -1,5 +1,9 @@
 # Scripts
 
-This folder will contain PowerShell or configuration scipts used to automate or support lab tasks.
+This directory contains automation scripts used in the Windows Active Directory VirtualBox lab.
 
-Scripts will be documented and non-destructive.
+## user-creation
+PowerShell script to automate Active Directory user creation from CSV input.
+
+## device-inventory
+PowerShell script to collect device identity and hardware information for inventory and enrollment preparation.
