@@ -2,7 +2,7 @@
 # Active Directory User Creation Script
 
 ## Purpose 
-This script automates the creation of Active Direcotry user accounts from a CSV file.
+This script automates the creation of Active Directory user accounts from a CSV file.
 It is intended to simulate enterprise onboarding workflows and reduce repetitive administrative tasks.
 
 ---
@@ -61,7 +61,7 @@ foreach ($User in $users) {
         -Enabled $true `
         -ChangePasswordAtLogon $true
 }
- ```
+```
 ### Script Behavior
 - Imports user data from a CSV file
 - Creates Active Directory user accounts in the *user-accounts* organizational unit
