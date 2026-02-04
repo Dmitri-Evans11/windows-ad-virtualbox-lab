@@ -65,6 +65,6 @@ foreach ($User in $users) {
 ### Script Behavior
 - Imports user data from a CSV file
 - Creates Active Directory user accounts in the *user-accounts* organizational unit
-- Assigns an intitial password and enforces a password change at first logon
+- Assigns an initial password and enforces a password change at first logon
 - Ensures consistent naming and domain standards
 
