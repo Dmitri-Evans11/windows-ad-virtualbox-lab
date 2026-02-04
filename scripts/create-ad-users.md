@@ -60,7 +60,7 @@ foreach ($User in $users) {
         -AccountPassword (ConvertTo-SecureString $User.Password -AsPlainText -Force) `
         -Enabled $true `
         -ChangePasswordAtLogon $true
-}```
+}
 
 **Script Behavior:**
 - Imports user data from a CSV file
