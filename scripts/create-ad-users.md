@@ -2,8 +2,8 @@
 # Active Directory User Creation Script
 
 ## Purpose 
-This script automates the cration of Active direcotry user accounts from a CSV file.
-It is intended to simulate etnerprise onboarding workflows and reduce repetitive administrative tasks.
+This script automates the creation of Active Direcotry user accounts from a CSV file.
+It is intended to simulate enterprise onboarding workflows and reduce repetitive administrative tasks.
 
 ---
 
@@ -38,8 +38,6 @@ The script creates accounts in the user-accounts organizational unit, enables th
 This confirms that the script executed correctly and that users were provisioned according to domain standards.*
 
 ---
-
-## PowerShell Script
 
 ## Create Active Directory Users Script
 
