@@ -41,6 +41,8 @@ This confirms that the script executed correctly and that users were provisioned
 
 ## PowerShell Script
 
+## Create Active Directory Users Script
+
 ```powershell
 Import-Module ActiveDirectory
 
@@ -61,9 +63,10 @@ foreach ($User in $users) {
         -Enabled $true `
         -ChangePasswordAtLogon $true
 }
-
-**Script Behavior:**
+ ```
+### Script Behavior
 - Imports user data from a CSV file
-- Creates Active Directory user accounts in the `user-accounts` OU
-- Sets an initial password and forces a password change at first logon
+- Creates Active Directory user accounts in the *user-accounts* organizational unit
+- Assigns an intitial password and enforces a password change at first logon
 - Ensures consistent naming and domain standards
+
