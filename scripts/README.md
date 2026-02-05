@@ -9,7 +9,7 @@ Each script is documented with evidence and usage details.
 Automates the creation of Active Directory user accounts from CSV input.
 
 📄 Documentation:  
-- [create-ad-users.md](./create-ad-users.md)
+- [create-ad-users.md](windows-ad-virtualbox-lab/scripts/create-ad-users.md)
 
 ---
 
