@@ -9,6 +9,19 @@ in a controlled, reproducible environment.
 
 ---
 
+## Lab Topology
+
+<img
+  src="https://github.com/user-attachments/assets/56bb8873-45b7-47fd-9bd3-a06ea9650cdc"
+  alt="Active Directory VirtualBox Lab Network Topology"
+  width="600"
+/>
+
+*High-level network topology of the Windows Active Directory VirtualBox lab, illustrating pfSense routing,
+Active Directory domain services, and Windows client systems.*
+
+---
+
 ## Project Areas
 
 The project is organized into four primary areas. Each section includes scripts, documentation,
