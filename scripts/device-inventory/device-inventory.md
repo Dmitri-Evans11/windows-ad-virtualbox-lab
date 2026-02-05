@@ -82,3 +82,9 @@ $Inventory = foreach ($Computer in $Computers) {
 }
 
 $Inventory | Export-Csv -Path $OutputPath -NoTypeInformation
+```
+## Script Behavior
+- Retrieves all computer objects from Active Directory
+- Collects system name, domain, logged-on user, manufacturer, model, and serial numbers
+- Uses error handling to flag offline or unreachable devices
+- Exports all results to a CSV file for reporting and auditing
