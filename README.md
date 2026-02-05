@@ -1,34 +1,75 @@
-# windows-ad-virtualbox-lab
+# Windows Active Directory VirtualBox Lab
 
-# VirtualBox Active Directory Home Lab (Documentation + Tickets)
+This project is a hands-on Windows Active Directory lab built using Oracle VirtualBox.
+It simulates a small enterprise environment and demonstrates identity management, device inventory,
+network design, and security policy implementation using Windows Server and PowerShell automation.
 
-## Goal
-Build a small, repeatable IT lab using Oracle VirtualBox that simulates a basic business environment:
-- 1x firewall/router (pfSense)
-- 1x Windows Server Domain Controller (Active Directory Domain Services + DNS)
-- 1x DHCP server
-- 2x Windows client machines (domain-joined)
-- Ticketing workflow + troubleshooting documentation
+The lab is designed to showcase practical system administration skills, scripting, and documentation
+in a controlled, reproducible environment.
 
-## What this repo includes
-- Step-by-step build documentation with validation checks
-- Network diagram and IP addressing plan
-- Troubleshooting notes for common failures
-- Sample help desk tickets with root cause and resolution
+---
 
-## Lab status
-- [x] Repo created
-- [x] Documentation structure created
-- [x] VirtualBox networking planned
-- [ ] Domain Controller installed
-- [ ] Clients joined to domain
-- [ ] Ticketing workflow documented
+## Project Areas
 
-## Tools
-- Oracle VirtualBox
-- Windows Server (evaluation)
-- Windows 10/11 clients
-- pfSense
+The project is organized into four primary areas. Each section includes scripts, documentation,
+and supporting evidence.
+
+### 🔹 User Creation Automation
+Automates Active Directory user provisioning using PowerShell and CSV input.
+
+📂 Scripts and Documentation:  
+- [User Creation Script](./scripts/create-ad-users.md)
+
+---
+
+### 🔹 Device Inventory Collection
+Collects hardware and identity information from domain-joined computers for inventory
+and endpoint management preparation.
+
+📂 Scripts and Documentation:  
+- [Device Inventory Script](./scripts/device-inventory.md)
+
+---
+
+### 🔹 Network Design
+Documents the logical and physical network layout of the lab environment, including
+routing, segmentation, and firewall considerations.
+
+📂 Documentation:  
+- [Network Design](./evidence-and-documentation/network-design.md)
+
+---
+
+### 🔹 Group Policy and Security
+Covers Group Policy Objects (GPOs), security baselines, and policy enforcement
+within the Active Directory domain.
+
+📂 Documentation:  
+- [Group Policy and Security](./evidence-and-documentation/group-policy-and-security.md)
+
+---
+
+## Lab Environment Overview
+
+- **Hypervisor:** Oracle VirtualBox  
+- **Domain Controller:** Windows Server 2019  
+- **Clients:** Windows 11  
+- **Network Services:** Active Directory Domain Services (AD DS), DNS  
+- **Automation:** PowerShell  
+- **Security:** Group Policy Objects, domain-based authentication
+
+---
+
+## Goals of This Lab
+
+- Demonstrate enterprise-style Active Directory administration
+- Automate repetitive identity and inventory tasks using PowerShell
+- Practice documenting infrastructure and security decisions
+- Build a portfolio-ready project reflecting real-world IT workflows
+
+---
 
 ## Notes
-This is a learning and portfolio lab. No production credentials or private data are stored in this repository.
+
+This lab is intended for learning and demonstration purposes.
+All scripts are non-destructive and designed to run in a controlled lab environment.
