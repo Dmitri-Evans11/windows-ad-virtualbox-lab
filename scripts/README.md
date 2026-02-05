@@ -9,7 +9,7 @@ Each script is documented with evidence and usage details.
 Automates the creation of Active Directory user accounts from CSV input.
 
 📄 Documentation:  
-- [create-ad-users.md](windows-ad-virtualbox-lab/scripts/create-ad-users.md)
+- [create-ad-users.md](./user-creation/create-ad-users.md)
 
 ---
 
@@ -18,4 +18,4 @@ Collects device identity and hardware information from Active Directory–joined
 for inventory tracking and endpoint management preparation.
 
 📄 Documentation:  
-- [device-inventory.md](./device-inventory.md)
+- [device-inventory.md](./device-inventory/device-inventory.md)
