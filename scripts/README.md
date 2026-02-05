@@ -1,9 +1,21 @@
 # Scripts
 
-This directory contains automation scripts used in the Windows Active Directory VirtualBox lab.
+This directory contains PowerShell automation scripts used in the Windows Active Directory VirtualBox lab.
+Each script is documented with evidence and usage details.
 
-## user-creation
-PowerShell script to automate Active Directory user creation from CSV input.
+---
 
-## device-inventory
-PowerShell script to collect device identity and hardware information for inventory and enrollment preparation.
+## User Creation
+Automates the creation of Active Directory user accounts from CSV input.
+
+📄 Documentation:  
+- [create-ad-users.md](./create-ad-users.md)
+
+---
+
+## Device Inventory
+Collects device identity and hardware information from Active Directory–joined computers
+for inventory tracking and endpoint management preparation.
+
+📄 Documentation:  
+- [device-inventory.md](./device-inventory.md)
