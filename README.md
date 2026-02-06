@@ -12,7 +12,7 @@ in a controlled, reproducible environment.
 ## Lab Topology
 
 <img
-<img width="589" height="737" alt="ad-lab-topology" src="https://github.com/user-attachments/assets/99247b5d-40ba-4ae9-864e-e0d9890d3157" />
+ width="589" height="737" alt="ad-lab-topology" src="https://github.com/user-attachments/assets/99247b5d-40ba-4ae9-864e-e0d9890d3157"
 />
 
 *High-level network topology of the Windows Active Directory VirtualBox lab, illustrating pfSense routing,
