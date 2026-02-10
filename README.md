@@ -29,7 +29,7 @@ and supporting evidence.
 Automates Active Directory user provisioning using PowerShell and CSV input.
 
 📂 Scripts and Documentation:  
-- [User Creation Script](./scripts/create-ad-users.md)
+- [User Creation Script](./scripts/user-creation/create-ad-users.md)
 
 ---
 
@@ -38,7 +38,7 @@ Collects hardware and identity information from domain-joined computers for inve
 and endpoint management preparation.
 
 📂 Scripts and Documentation:  
-- [Device Inventory Script](./scripts/device-inventory.md)
+- [Device Inventory Script](./scripts/device-inventory/device-inventory.md)
 
 ---
 
