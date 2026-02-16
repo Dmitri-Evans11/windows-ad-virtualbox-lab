@@ -44,15 +44,11 @@ User successfully authenticated on a domain workstation, confirming restriction 
 
 ## Evidence
 
-![Password Change Required](./screenshots/password-change.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de2f76f3-22c5-4ce6-9a7c-ba41e7b934de" width="700">
+</p>
 
-![Deny Log On Locally Policy](./screenshots/deny-logon.png)
 
-![Logon Denied Message](./screenshots/logon-denied.png)
-
-![Event ID 4625](./screenshots/event-4625.png)
-
-![whoami Output](./screenshots/whoami.png)
 
 ---
 
