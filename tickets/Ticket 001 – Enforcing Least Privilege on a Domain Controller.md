@@ -44,7 +44,10 @@ User successfully authenticated on a domain workstation, confirming restriction 
 
 ## Evidence
 
-<img width="1025" height="766" alt="ticket001-p2" src="https://github.com/user-attachments/assets/de2f76f3-22c5-4ce6-9a7c-ba41e7b934de" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de2f76f3-22c5-4ce6-9a7c-ba41e7b934de" width="770">
+</p>
+
 
 
 
