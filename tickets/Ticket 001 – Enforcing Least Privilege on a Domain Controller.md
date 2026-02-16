@@ -49,21 +49,20 @@ User successfully authenticated on a domain workstation, confirming restriction 
 </p>
 
 <p align="center">
-<img width="512" height="769" alt="ticket001-p5" src="https://github.com/user-attachments/assets/73e6937f-c26f-4861-9cdb-a57398f617c9" />
+  <img src="https://github.com/user-attachments/assets/73e6937f-c26f-4861-9cdb-a57398f617c9" width="512">
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1381c85d-74a4-4fac-803c-3e9296356020" width="512">
 </p>
 
-
 <p align="center">
-<img width="512" height="765" alt="ticket001-p9" src="https://github.com/user-attachments/assets/78c00f3d-3561-4807-9433-16214ad71c41" />
+  <img src="https://github.com/user-attachments/assets/78c00f3d-3561-4807-9433-16214ad71c41" width="512">
 </p>
 
 <p align="center">
-<img width="512" height="768" alt="ticket001-p4" src="https://github.com/user-attachments/assets/efff7ca6-988c-424b-96b0-497297d3cd33" />
-</p>
+  <img src="https
+
 ---
 
 ## Concepts Demonstrated
