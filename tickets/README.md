@@ -7,3 +7,8 @@ Each ticket documents:
 - Root cause analysis
 - Resolution steps
 - Validation and prevention notes
+
+
+| Ticket | Title | Status |
+|--------|-------|--------|
+| 001 | [Enforcing Least Privilege on a Domain Controller](./Ticket-001-Enforcing-Least-Privilege-on-a-Domain-Controller.md) | Complete |
