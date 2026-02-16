@@ -61,7 +61,8 @@ User successfully authenticated on a domain workstation, confirming restriction 
 </p>
 
 <p align="center">
-  <img src="https
+  <img src="https://github.com/user-attachments/assets/efff7ca6-988c-424b-96b0-497297d3cd33" width="512">
+</p>
 
 ---
 
