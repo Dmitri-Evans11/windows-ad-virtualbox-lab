@@ -45,7 +45,7 @@ User successfully authenticated on a domain workstation, confirming restriction 
 ## Evidence
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/de2f76f3-22c5-4ce6-9a7c-ba41e7b934de" width="770">
+  <img src="https://github.com/user-attachments/assets/de2f76f3-22c5-4ce6-9a7c-ba41e7b934de" width="512">
 </p>
 
 
