@@ -53,8 +53,9 @@ User successfully authenticated on a domain workstation, confirming restriction 
 </p>
 
 <p align="center">
-<img width="512" height="769" alt="ticket001-p6" src="https://github.com/user-attachments/assets/1381c85d-74a4-4fac-803c-3e9296356020" />
+  <img src="https://github.com/user-attachments/assets/1381c85d-74a4-4fac-803c-3e9296356020" width="512">
 </p>
+
 
 <p align="center">
 <img width="512" height="765" alt="ticket001-p9" src="https://github.com/user-attachments/assets/78c00f3d-3561-4807-9433-16214ad71c41" />
