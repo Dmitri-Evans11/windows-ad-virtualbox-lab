@@ -36,7 +36,7 @@ and system administration workflows.
 📂 Ticket Index:  
 - [View Tickets](./tickets/)
 
-
+---
 ### 🔹 User Creation Automation
 Automates Active Directory user provisioning using PowerShell and CSV input.
 
