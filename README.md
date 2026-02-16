@@ -25,6 +25,18 @@ Active Directory domain services, and Windows client systems.*
 The project is organized into four primary areas. Each section includes scripts, documentation,
 and supporting evidence.
 
+---
+
+### 🔹 Troubleshooting Tickets
+
+Structured lab-based troubleshooting and security validation scenarios
+demonstrating Identity and Access Management (IAM), policy enforcement,
+and system administration workflows.
+
+📂 Ticket Index:  
+- [View Tickets](./tickets/)
+
+
 ### 🔹 User Creation Automation
 Automates Active Directory user provisioning using PowerShell and CSV input.
 
